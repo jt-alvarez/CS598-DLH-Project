@@ -1,0 +1,11 @@
+name: dlh-project
+dependencies:
+  - python=3.12
+  - NumPy
+  - PyTorch
+  - scikit-learn
+  - conda-forge::transformers
+  - conda-forge::dataset
+  - tqdm=4.62.2
+  - pandas
+  - packaging
