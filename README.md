@@ -36,9 +36,11 @@ Use pip to install, typical install time is about 30 minutes.
 
 An example to sample data is located at Notebook code execution section.
 
+* In order to run Approach 1 - PreTrained Model, the Mimic-IV dataset must be access from https://physionet.org/content/mimiciv/ which requires ethics training and privacy concerns.
+* 
 * In order to Run Approach 2 - PyHealth Implementation, Dataset need to be downloaded in "./mimic-iv-2.2/hosp".
 
-* In order to run Approach 2 - PreTrained Model, the Mimic-IV dataset must be access from https://physionet.org/content/mimiciv/ which requires ethics training and privacy concerns. 
+
 
 
 
