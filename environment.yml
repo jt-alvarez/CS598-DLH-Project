@@ -9,3 +9,7 @@ dependencies:
   - tqdm=4.62.2
   - pandas
   - packaging
+  - accelerate
+  - conda-forge::jupyterlab
+  - conda-forge::notebook
+  - conda-forge::ipywidgets
