@@ -22,10 +22,15 @@ DL4H_Team_152_combine.ipynb
   - conda-forge::jupyterlab
   - conda-forge::notebook
   - conda-forge::ipywidgets
+  - scispacy
+  - en_core_sci_sm
 
 ## Installation
  
 Use pip to install, typical install time is about 30 minutes.
+
+* the en_core_sci_sm for scispacy has a special install using this command
+* pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz 
 
 ## How to load sample data
 
@@ -33,7 +38,7 @@ An example to sample data is located at Notebook code execution section.
 
 * In order to Run Approach 2 - PyHealth Implementation, Dataset need to be downloaded in "./mimic-iv-2.2/hosp".
 
-   
+* In order to run Approach 2 - PreTrained Model, the Mimic-IV dataset must be access from https://physionet.org/content/mimiciv/ which requires ethics training and privacy concerns. 
 
 
 
